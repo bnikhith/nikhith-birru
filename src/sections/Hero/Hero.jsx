@@ -4,7 +4,7 @@ import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import linkedInLight from "../../assets/linkedin-light.svg";
 import linkedInDark from "../../assets/linkedin-dark.svg";
-import CV from "../../assets/cv.pdf";
+import NikhithBirru from "../../assets/NikhithBirru.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -43,7 +43,7 @@ function Hero() {
         <p className={styles.description}>
           With a passion for developing modern applications.
         </p>
-        <a href={CV} download>
+        <a href={NikhithBirru} download>
           <button className="hover">Resume</button>
         </a>
       </div>
