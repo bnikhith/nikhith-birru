@@ -34,14 +34,21 @@ function Hero() {
           <br />
           Birru
         </h1>
-        <h2>Full Stack Developer</h2>
+        <h2>Senior Software Engineer @ Commvault</h2>
         <span>
           <a href="https://www.linkedin.com/in/bnikhith/" target="_blank">
             <img src={linkedInIcon} alt="LinkedIn" />
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern applications.
+          Backend engineer with 5+ years of experience in developing and
+          implementing solutions using a diverse range of technologies,
+          including C/C++, C#, Python, Transact-SQL, Java, ReactJS, and
+          JavaScript. Proficient with SQL Server and have orchestrated with
+          cloud technologies such as Microsoft Azure and Amazon Web Services.
+          Proficient in team collaboration across disciplines, effectively
+          conveying technical ideas, and product development endeavors to the
+          stakeholders.
         </p>
         <a href={NikhithBirru} download>
           <button className="hover">Resume</button>

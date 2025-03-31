@@ -13,23 +13,28 @@ function Skills() {
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
       <div className={styles.skillList}>
+        <SkillList src={checkMarkIcon} skill="C/C++" />
+        <SkillList src={checkMarkIcon} skill="Python" />
+        <SkillList src={checkMarkIcon} skill="SQL" />
+        <SkillList src={checkMarkIcon} skill="C#" />
+        <SkillList src={checkMarkIcon} skill="Java" />
+        <SkillList src={checkMarkIcon} skill="JavaScript" />
         <SkillList src={checkMarkIcon} skill="HTML" />
         <SkillList src={checkMarkIcon} skill="CSS" />
-        <SkillList src={checkMarkIcon} skill="REACT" />
-        <SkillList src={checkMarkIcon} skill="SQL Server" />
-        <SkillList src={checkMarkIcon} skill="C++" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Node" />
-        <SkillList src={checkMarkIcon} skill="Python" />
-        <SkillList src={checkMarkIcon} skill="Vue" />
+        <SkillList src={checkMarkIcon} skill="ReactJS" />
+        <SkillList src={checkMarkIcon} skill="REST APIs" />
+        <SkillList src={checkMarkIcon} skill=".Net Framework" />
+        <SkillList src={checkMarkIcon} skill="Tableau" />
+        <SkillList src={checkMarkIcon} skill="RapidMiner" />
+        <SkillList src={checkMarkIcon} skill="SPSS" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Redux" />
-        <SkillList src={checkMarkIcon} skill="Vite" />
-        <SkillList src={checkMarkIcon} skill="Git" />
+        <SkillList src={checkMarkIcon} skill="Microsoft Azure" />
+        <SkillList src={checkMarkIcon} skill="Amazon Web Services" />
       </div>
     </section>
   );
